@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IoT">
         <activity
+            android:name=".ReadDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
