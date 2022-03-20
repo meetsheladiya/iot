@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/activity_read_data.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/activity_readdata.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/item_readdata.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/list_items.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Lenovo/Desktop/Apps/IoT/app/src/main/res/layout/list_readdata.xml" value="0.23229166666666667" />
       </map>

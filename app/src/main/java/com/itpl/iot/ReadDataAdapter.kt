@@ -1,6 +1,5 @@
 package com.itpl.iot
 
-
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
@@ -25,8 +24,9 @@ class ReadDataAdapter(private val listener: ReadDataActivity): RecyclerView.Adap
 
     override fun onBindViewHolder(holder: DataViewHolder, position: Int) {
         val currentItem = items[position]
-        holder.id1.text = currentItem.field1
-        holder.name.text = currentItem.field2
+        holder.time.text = currentItem.created_at
+        holder.field1.text = currentItem.field1
+        holder.field2.text = currentItem.field2
 
     }
     @SuppressLint("NotifyDataSetChanged")
@@ -39,6 +39,7 @@ class ReadDataAdapter(private val listener: ReadDataActivity): RecyclerView.Adap
 }
 
 class DataViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    val id1: TextView = itemView.findViewById(R.id.id)
-    val name: TextView = itemView.findViewById(R.id.textView3)
+    val time: TextView = itemView.findViewById(R.id.time)
+    val field1: TextView = itemView.findViewById(R.id.field1)
+    val field2: TextView = itemView.findViewById(R.id.field2)
 }

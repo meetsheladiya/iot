@@ -1,5 +1,6 @@
 package com.itpl.iot
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val appbutton = findViewById<Button>(R.id.button)
         val readdatabutton = findViewById<Button>(R.id.button2)
         readdatabutton.setOnClickListener {
-            val intent = Intent(this,ReadDataActivity::class.java)
+            val intent = Intent(this, ReadDataActivity::class.java)
             startActivity(intent)
         }
 
