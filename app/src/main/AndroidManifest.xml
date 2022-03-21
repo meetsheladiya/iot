@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IoT">
         <activity
+            android:name=".Controls"
+            android:exported="false" />
+        <activity
             android:name=".ReadDataActivity"
             android:exported="false" />
         <activity
